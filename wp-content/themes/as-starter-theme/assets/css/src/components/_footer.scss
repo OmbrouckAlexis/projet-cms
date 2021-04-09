@@ -1,0 +1,128 @@
+.nav-footer {
+
+    ul {
+        display: flex;
+        list-style:none;
+        margin-left:0;
+        padding-left:20;
+        margin-top: 20px;
+    }
+    li {
+        margin-left: -40px;
+        margin-right: -40px;
+        padding: 20px;
+
+    }
+}
+
+.nav-link-footer {
+    width: 85px;
+    height: 39px;
+    margin: 0px 121px -2px 91px;
+    font-family: SFUIDisplay;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 2.17;
+}
+
+.footer {
+    display: flex;
+    width: screen;
+    justify-content: center;
+    }
+
+
+.footer-sublink {
+    display: flex;
+    padding-left: 200px;
+    margin-top: -30px;
+    margin-bottom: 30px;
+}
+
+.p-sublink1 {
+    width: 122px;
+    height: 104px;
+    margin: 2px 30px 43px 190px;
+    opacity: 0.7;
+    font-size: 15px;
+  font-weight: 500;
+  color: grey;
+}
+.p-sublink2 {
+    width: 122px;
+    height: 104px;
+    margin: 2px 50px 43px 84px;
+    opacity: 0.7;
+    font-size: 15px;
+  font-weight: 500;
+  color: grey;
+}
+.p-sublink3 {
+    width: 122px;
+    height: 104px;
+    margin: 2px 20px 43px 87px;
+    opacity: 0.7;
+    font-size: 15px;
+  font-weight: 500;
+  color: grey;
+}
+
+.input-sublink {
+    border: none;
+    margin: 29px 1px 101px 82px;
+    width: 270px;
+    border-bottom: solid 2px #dddddd;
+}
+
+.hr-subtitle {
+    width: 1201px;
+  height: 1px;
+  margin: 43px 0 27px;
+  border: none;
+  border-bottom: solid 2px #eae7e7;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -40px;
+}
+
+
+.back-foot-div {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.text-rs {
+    margin: 27px 91px 0 70px;
+  font-family: SFUIDisplay;
+  font-size: 14px;
+  font-weight: 300;
+  color: #5b5e6d;
+}
+
+.div-rs {
+    margin-top: 20px;
+    margin-left: 900px;
+}
+
+.img-rs-1 {
+    width: 20px;
+    height: 19px;
+    object-fit: contain;
+    color: #5b5e6d;
+}
+
+.img-rs-2 {
+    width: 11px;
+    height: 21px;
+    object-fit: contain;
+    color: #5b5e6d;
+    margin-left: 20px;
+}
+
+.img-rs-3 {
+    width: 20px;
+  height: 16px;
+  object-fit: contain;
+  color: #5b5e6d;
+  margin-left: 20px;
+}

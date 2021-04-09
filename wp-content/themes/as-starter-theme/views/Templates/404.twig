@@ -1,0 +1,40 @@
+{# index.php #}
+{% extends 'Layouts/base.twig' %}
+
+{% block content %}
+<div id="div-img-404">
+<img id="img-404" src="/projet-cms/wp-content/themes/as-starter-theme/assets/img/group-16.png"/>
+<h3 id="title-404">Oups, cette page n’existe pas !</h3>
+</div>
+<div id="div2-img-404">
+<a id="link-404" href="#">Découvrez nos offres</a>
+</div>
+
+<div id="blog-404" class="blog">
+<div class="background-blog">
+    <h2 class="center"> Le Blog</h2>
+    <div class="grid-blog">
+        <div class="grid-blog1">
+            <img src="/projet-cms/wp-content/themes/as-starter-theme/assets/img/chien.jpg" class="img-blog"/>
+            <h4>La veille collaborative : l’avenir de la veille en entreprise ?</h4>
+            <p class="date-blog">12 FEV 2019</p>
+        </div>
+        <div class="grid-blog2">
+            <img src="/projet-cms/wp-content/themes/as-starter-theme/assets/img/chien.jpg" class="img-blog"/>
+            <h4>La veille collaborative : l’avenir de la veille en entreprise ?</h4>
+            <p class="date-blog">12 FEV 2019</p>
+        </div>
+        <div class="grid-blog3">
+            <img src="/projet-cms/wp-content/themes/as-starter-theme/assets/img/chien.jpg" class="img-blog"/>
+            <h4>La veille collaborative : l’avenir de la veille en entreprise ?</h4>
+            <p class="date-blog">12 FEV 2019</p>
+        </div>
+    </div>
+    <div class="center">
+      <a href="/" class="link-content">Plus d'articles</a>
+    </div>
+    </div>
+   </div> 
+{{post.content}}
+
+{% endblock %}

@@ -1,0 +1,60 @@
+{% block head %}
+  {% include 'Partials/Layout/_head.twig' %}
+{% endblock %}
+
+  <body class="{{body_class}}" data-template="base.twig" id="body">
+    {% block header %}
+      {% include 'Partials/Layout/_header.twig' %}
+    {% endblock %}
+
+    <section id="content" role="main" class="container">
+      {% block content %}
+        Sorry, no content
+      {% endblock %}
+    </section>
+
+    {% block footer %}
+      {% include 'Partials/Layout/_footer.twig' %}
+
+      {{ function('wp_footer') }}
+      {% include 'Partials/Components/_analytics.twig' %}
+    {% endblock %}
+    <div class="footer-sublink">
+          <div class="sublink1">
+              <p class="p-sublink1">Lorem ipsum<br/>
+            Dolor amet<br/>
+            Valem setum<br/>
+            Uller Sole<br/>
+        </p></div>
+        <div class="sublink2">
+            <p class="p-sublink2">Lorem ipsum<br/>
+          Dolor amet<br/>
+          Valem setum<br/>
+          Uller Sole<br/>
+      </p></div>
+      <div class="sublink3">
+        <p class="p-sublink3">Lorem ipsum<br/>
+      Dolor amet<br/>
+      Valem setum<br/>
+      Uller Sole<br/>
+  </p></div>
+    <div class="sublink4">
+        <input class="input-sublink" type="text" placeholder="Votre mail"/>
+    </div>
+      </div>
+
+      <hr class="hr-subtitle"/>
+
+<div class="back-foot-div">
+          <div>
+          <p class="text-rs">Plan du site &emsp; Mentions légales</p>
+        </div>
+        <div class="div-rs">
+            <img src="/projet-cms/wp-content/themes/as-starter-theme/assets/img/linkedin-font-awesome.png" alt="linkedin" class="img-rs-1"/>
+            <img src="/projet-cms/wp-content/themes/as-starter-theme/assets/img/facebook-font-awesome.png" alt="linkedin" class="img-rs-2"/>
+            <img src="/projet-cms/wp-content/themes/as-starter-theme/assets/img/twitter-font-awesome.png" alt="linkedin" class="img-rs-3"/>
+        </div>
+      </div>
+
+  </body>
+</html>

@@ -1,0 +1,23 @@
+/*
+ * Add your custom blocks below
+ * import './my-custom-block/block.js'
+ */
+import './example/1-hello-world/block.js'
+import './example/2-plain-text/block.js'
+import './example/3-text-image/block.js'
+import './example/4-url-button/block.js'
+import './example/5-repeater/block.js'
+import './example/6-ssr-block/block.js'
+import './block-projet-cms/text-image-cms/block.js'
+import './block-projet-cms/title-blue-text/block.js'
+import './block-projet-cms/text-image-link/block.js'
+import './block-projet-cms/repet-block/block.js'
+import './block-projet-cms/block-ssr/block.js'
+import './block-projet-cms/text-img-link2/block.js'
+import './block-projet-cms/text-img-link3/block.js'
+import './block-blog/block-article/block.js'
+import './block-article/titre-text-article/block.js'
+import './block-article/block-flower/block.js'
+import './block-intelligence/block-intelligence2/block.js'
+import './block-intelligence/block-intelligence3/block.js'
+import './block-intelligence/block-intelligence4/block.js'
